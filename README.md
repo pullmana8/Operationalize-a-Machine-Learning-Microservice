@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/pullmana8/Operationalize-a-Machine-Learning-Microservice/3/workflows/099a2141-3351-4603-ad4a-eae7e16e5403)
 
 ## Project Overview
 
