@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-deployment-public
+spec:
+  selector:
+    matchLabels:
+      app: flask-app-public
+  template:
+    metadata:
+      labels:
+        app: flask-app-public
+    spec:
+      containers:
+      - name: flask-app-public
+        image: pyrrhus/flask-app:public
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80

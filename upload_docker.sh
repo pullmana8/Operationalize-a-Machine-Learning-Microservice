@@ -6,7 +6,7 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath=pyrrhus/flask-app:latest
+dockerpath=pyrrhus/flask-app:public
 
 # Step 2:
 # Authenticate & tag
