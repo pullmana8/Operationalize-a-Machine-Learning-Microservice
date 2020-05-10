@@ -1,6 +1,6 @@
 # Project Overview
 
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/pullmana8/Operationalize-a-Machine-Learning-Microservice/3/workflows/099a2141-3351-4603-ad4a-eae7e16e5403)
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/pullmana8/Operationalize-a-Machine-Learning-Microservice/6/workflows/78618298-ea79-484b-951a-08d6e7d6bcd6)
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
 
@@ -51,7 +51,6 @@ Once you published the image, you can run `./make_prediction.sh` and it will out
 ![Docker](screenshots/docker-run.png)
 
 ![Docker](screenshots/prediction.png)
-
 
 4. Run in Kubernetes:  `./run_kubernetes.sh`
 
